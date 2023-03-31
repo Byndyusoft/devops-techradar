@@ -28,9 +28,10 @@ Operator SDK,Оценка,Languages & Frameworks,True,
 Earthly,Оценка,Tools,True,
 Opsgenie,Не рекомендуется,Tools,False,
 OpenSLO,Оценка,Languages & Frameworks,False,
-Shell Operator,Оценка,Languages & Frameworks,True,
+Shell Operator,Обкатка,Languages & Frameworks,True,
 Kafka,Оценка,Tools,False,message broker
-Envoy,Оценка,Tools,True,
+Envoy,Обкатка,Tools,True,
+Istio,Обкатка,Tools,True
 BuildPacks,Оценка,Tools,False,
 ArgoCD,Оценка,Tools,False,
 Jaeger,Рекомендуется,Tools,False,
