@@ -1,9 +1,22 @@
 # DevOps техрадар Byndyusoft
 
-Проект [byor](https://radar.thoughtworks.com/) теперь не поддерживает кастомные кольца и квадранты - https://github.com/thoughtworks/build-your-own-radar/issues/317.
+Ссылка на радар: 
 
-Для визуализации поднята селф-хостед версия со старым тегом - https://hub.docker.com/layers/wwwthoughtworks/build-your-own-radar/21851f02/images/sha256-1aa398b8ddcac9ee1c218c134410c6b6b856b453d5ea5a010c335d5bb12b235e?context=explore
+Интерпритация колец:
+1. Adopt - рекомендованно
+2. Trial - обкатка
+3. Assess - оценка
+4. Hold - нежелательно
 
-# Использование
+```mermaid
+graph TD
+    A[Assess] -->|Положительная оценка| B(Trial)
+    A -->|Отрицательная оценка| C(Hold)
+    B -->|Положительная оценка| D(Adopt)
+    B -->|Отрицательная оценка| C
+    D -->|Другие риски, уход вендора, etc| C(Hold)
+``` 
 
-На главной странице ввест ссылку до csv в репозитории и начажить "Build My Radr"
+Преимущество отдаётся opensource приложениям со свободной лицензией.
+
+Все изменения в техрадаре должны проходить через PR и обсуждение в стриме.
