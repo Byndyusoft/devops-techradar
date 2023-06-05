@@ -30,7 +30,7 @@ OpenSLO,Assess,Languages & Frameworks,False,
 Shell Operator,Trial,Languages & Frameworks,True,
 Kafka,Assess,Tools,False,message broker
 Envoy,Trial,Tools,True,
-Istio,Trial,Tools,True
+Istio,Trial,Tools,True,
 BuildPacks,Assess,Tools,False,
 ArgoCD,Assess,Tools,False,
 Jaeger,Adopt,Tools,False,
