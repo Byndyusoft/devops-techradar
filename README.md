@@ -1,6 +1,6 @@
 # DevOps техрадар Byndyusoft
 
-Ссылка на радар: 
+Ссылка на радар: https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2FByndyusoft%2Fdevops-techradar%2Fmaster%2Fradar.csv
 
 Интерпритация колец:
 1. Adopt - рекомендованно
