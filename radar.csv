@@ -49,3 +49,8 @@ CueLang,Assess,Languages & Frameworks,True,
 Sloth,Assess,Tools,False,
 GoLang,Adopt,Languages & Frameworks,False,
 Python,Adopt,Languages & Frameworks,False,
+Coroot,Trial,Tools,True
+CasDoor,Assess,Tools,True
+Keycloak,Assess,Tools,False
+Zolando,Assess,Tools,False
+Glitchtip,Assess,Tools,False
